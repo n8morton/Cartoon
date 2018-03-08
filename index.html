@@ -33,7 +33,7 @@
 
       function displayCartoonImages() {
         var cartoon = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + cartoon + "&api_key=u5YTttTwh92K4X9XmHTWr2GJrDcMsBtY&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + cartoon + "&api_key=u5YTttTwh92K4X9XmHTWr2GJrDcMsBtY&limit=10";
 
         $.ajax({
           url: queryURL,
